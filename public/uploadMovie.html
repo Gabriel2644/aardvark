@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload your movie</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap-grid.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/cin.png">
+</head>
+<body>
+     <div class="container">
+        <div class="logo">
+        <img style="margin-left: 45px;" src="images/cinema.png" alt="">
+        <h1>movie<span>shop</span></h1>
+        </div>
+        <div class="alert alert-primary" role="alert">
+            Real and Reel: Buy one get one free
+          </div>
+          <a href="index.html"><button type="button" class="btn btn-primary">Back to HomePage</button></a>
+          <div>
+            <table class="table table-borderless">
+                <tr>
+                    <th>Movie Name</th>
+                    <th>Lead Actor</th>
+                </tr>
+                <tr>
+                    <td><input class="form-control"  type="text" placeholder="Movie Name" required></td>
+                    <td><input class="form-control" type="text" placeholder="Lead Actor" required></td>
+                </tr>
+                <tr>
+                    <th>Duration</th>
+                    <th>Movie Poster</th>
+                </tr>
+                <tr>
+                    <td><input class="form-control" type="number"></td>
+                    <td><div class="mb-3">
+                        <input class="form-control" type="file" id="formFile">
+                      </div></td>                     
+                </tr>
+                <tr>
+                    <th>Rating</th>
+                    <th>Genre</th>
+                </tr>
+                <tr>
+                    <td><input class="form-control"  type="text" placeholder="PG" required></td>
+                    <td><input class="form-control"  type="text" placeholder="Action" required></td>
+                </tr>
+                <tr>
+                    <td><button style="width: 650px;" id="sr" class="btn btn-primary d-grid gap-2">Submit Movie</button></td>
+                    <td><button style="width: 650px;" id="sr" class="btn btn-danger" type="button">Reset</button></td>
+                </tr>
+              </table>
+        </div>
+</body>
+</html>
